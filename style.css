@@ -15,7 +15,11 @@ ul {
     top: 20px;
     left: 1000px;
 }
-
+/* listebis ganlageba upro martivad rom migvego marjvena kutxis hedershi mashin gamoviyenebdi 
+display: flex;
+justify-content: space-between;
+justify-content: end;
+*/
 li {
     margin-right: 10px;
     color: white;
@@ -30,6 +34,16 @@ nav ul li {
     height: 15px;
     padding-right: 15px;
 }
+/*listebis dasawyishi xazebis chamatebis uketesi variantic arsebobs magalitad
+li::after{
+    content:"";
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 15px;
+    align-items: center;*/
 .image p {
     width: 546px;
     height: 60px;
@@ -39,12 +53,18 @@ nav ul li {
     top: 600px;
     font-size: 20px;
 }
-
+/* top propertis nacvlad gamoviyenebdi bottoms*/
 img {
     width: 1490px;
     height: 750px;
 }
-
+/* kargi iqneba rom img tegis klasi  gamoviyenot rac mshobels daarqvi, da ara mashtaburad img tegi,rom mere shesadzloa sxva potoebis damatebisas matac igive propertebi daematot.  */
+/* aseve rom mivigot is shedegi tu rogor ganlagdes foto srulad ekranze me gamoviyenebdi, 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;, */
 .box {
     width: 835px;
     height: 339px;
@@ -141,3 +161,11 @@ h2 {
         width: calc(100% / 2);
     }
 }
+
+/*metad logikur saxelebs davarqmevdi klasebs, magalitad gray klasis saxeli aralogikuria linktan an teqstan mimartebashi*/
+
+
+/*qvemot ganlagebul tetr yutebs gavuxsnidi saerto mshobels, davarqmevdi klasis saxels da shemdeg stilebshi gamoviyenebdi display flex, display columns radgan 
+upro martivad ganlagebuliyo ertmanetis gverdit */
+
+/*da sul cotatia mshobeli shvilis struqtura areuli magram it's okay baby*/
